@@ -3,7 +3,7 @@
 |---|---|
 | Keshav Kathuria | 2301730348
 
-Detecting malicious network traffic from flow-level features. This project classifies network flows from the **CICIDS2017** dataset as **normal** or **suspicious**, using Logistic Regression and a Decision Tree as classical machine learning baselines and a small neural network (MLP) as an introduction to deep learning. It then compares the approaches on detection quality, training time and practical feasibility.
+Detecting malicious network traffic from flow-level features. This project classifies network flows from the **CICIDS2017** dataset as **normal** or **suspicious**, using machine learning baselines and a small neural network (MLP). It then compares the approaches on detection quality, training time and practical feasibility.
 
 ---
 
@@ -242,9 +242,3 @@ Averaged equally across the 12 attack types, recall is about **84% for the Decis
 Python, NumPy, pandas, scikit-learn, Matplotlib, seaborn, Jupyter.
 
 ---
-
-## 12. Acknowledgements and citation
-
-Dataset: Canadian Institute for Cybersecurity (CIC), University of New Brunswick.
-
-> Iman Sharafaldin, Arash Habibi Lashkari, and Ali A. Ghorbani, "Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization", 4th International Conference on Information Systems Security and Privacy (ICISSP), Portugal, January 2018.
